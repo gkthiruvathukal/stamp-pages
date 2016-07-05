@@ -1,0 +1,8 @@
+\documentclass[12pt,letter]{article}
+\usepackage{multido}
+%\usepackage[hmargin=1in,vmargin=1in,nohead,nofoot]{geometry}
+\usepackage[letterpaper,left=1.5in,right=1in,top=0.5in,bottom=1in,nohead,nofoot]{geometry}
+\pagenumbering{roman}
+\begin{document}
+\multido{}{500}{\vphantom{x}\newpage}
+\end{document}

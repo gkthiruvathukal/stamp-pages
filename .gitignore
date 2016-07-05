@@ -1,0 +1,5 @@
+*.pdf
+*.txt
+sources/
+blanks/
+results/
